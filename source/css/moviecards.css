@@ -1,0 +1,134 @@
+div{
+    margin: 0;
+    padding: 0;
+}
+.titles{
+    margin: 0;
+    padding: 0;
+    padding-left: 2vw;
+    font-size: 1.7vw;
+    width: 97vw;
+    position: relative;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.movieline{
+    position: relative;
+    float: left;
+    margin-top: 1.7vw;
+    padding-bottom: 2vw;
+    width: 500vw;
+    height: 20vw;
+    z-index: 2;
+    background-color: black;
+}
+
+.moviecard{
+    width: 13vw;
+    height: 19vw;
+    background-size: 100% 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    transform: translate3d(0,0,0);
+    transition: all 0.3s;
+}
+
+.recommended{
+    width: 98vw;
+    position: relative;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 3vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.latest{
+    width: 98vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    position: relative;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.trending{
+    width: 98vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.cardbutton{
+    position: absolute;
+    background-color: rgba(255,255,255,0);
+    width: 4vw;
+    height: 4vw;
+    left: 92vw;
+    top: 9.5vw;
+    z-index: 4;
+}
+
+.cardbutton i{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 3vw;
+    padding-left: 1.25vw;
+    padding-top: 0.5vw;
+    color: rgba(255,255,255,0.7);
+}
+
+.cardbutton i:hover{
+    padding-top: 0;
+    padding-left: 1vw;
+    font-size: 4vw;
+    color: rgba(255,255,255,1);
+}
+
+.cardbuttonle{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    left: 0.6vw;
+    top: 9.5vw;
+    z-index: 1;
+}
+
+.cardbuttonle i{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 3vw;
+    padding-left: 1.25vw;
+    padding-top: 0.5vw;
+    color: rgba(255,255,255,0.5);
+}
+
+.cardbuttonle i:hover{
+    padding-top: 0;
+    padding-left: 1vw;
+    font-size: 4vw;
+    color: rgba(255,255,255,1);
+}
+
+.footer{
+    width: 100vw;
+    height: 5vw;
+    position: relative;
+    float: left;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
